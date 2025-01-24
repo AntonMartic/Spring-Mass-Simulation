@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 40px;
+  margin: 0px 5px 0px 5px;
+}
+
+.controls {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.settings{
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0px 10px 10px 10px;
+}
+
+p{
+  margin: 0px 0px 5px 0px;
+}
+
+button{
+  padding: 20px;
+}
